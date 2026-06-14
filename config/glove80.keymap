@@ -79,6 +79,30 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <36 37>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <37 38>;
+        };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <41 42>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <43 42>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
